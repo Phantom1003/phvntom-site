@@ -1,0 +1,108 @@
+baseURL = "www.phvntom.tech"
+title = "Phvntom"
+
+
+# Copyright notice. Note: You can use HTML tag here
+copyright = "&copy; 2020 phantom0308"
+pluralizeListTitles = false
+
+# Minimum number of posts before paginate navigation show up
+paginate = 20
+
+# Your disqus shortname
+disqusShortname = "phantom"
+
+# Edit this if you want to translate your blog
+defaultContentLanguage = "en"
+
+# Code Highlighting (Chroma)
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+
+[menu]
+	[[menu.main]]
+		name = "Home"
+		url = "/"
+		weight = 1
+
+	[[menu.main]]
+		name = "Blog"
+		url = "/blog/"
+		weight = 2
+
+	[[menu.main]]
+		name = "Work"
+		url = "/work"
+		weight = 3
+	
+	[[menu.main]]
+		name = "Rep"
+		url = "/rep"
+		weight = 4
+
+	[[menu.main]]
+		name = "About"
+		url = "/about"
+		weight = 999
+
+[taxonomies]
+	tag = "tags"
+
+[params]
+	# If false, use minified CSS (ui.min.css)
+	debugCSS = false
+	# Custom CSS
+	customCSS = []
+	
+	# Site meta description
+	description = "Sweet little Hugo's theme for personal website or blog."
+	# Site's Tagline (Subtitle or Keyword)
+	tagline = "Never, never, never, never give up."
+	# If true give attribution to this theme
+	themeAttrib = true
+	# URL to license file, can be outside of your domain
+	licenseURL = ""
+
+	# Configure which sections for Latest Posts
+	mainSections = ["blog", "post"]
+	# Configure which sections for Latest Works
+	workSections = ["work", "rep"]
+	
+	# List of sections that support disqus comments
+	disqusSections = [ "blog" ]
+	# List of sections that support utterances comments
+	utterancesSections = [ "blog" ]
+	
+	# Utterances Configuration
+	utterancesRepo = ""
+	utterancesTheme = "github-light"
+	utterancesLabel = ""
+
+	# 404 Configuration
+	head404 = "Sorry, I can't find what you want."
+	sub404 = "Back to <a href='/'>Home</a>."
+
+	# Color of your website's accent
+	colorTheme = "#ff6565"
+	# Maximum number of item in Latest Posts or Works
+	latestCount = 5
+	# Path to site's favicon image
+	faviconImg = "/img/favicon.png"
+	# Date format in item list
+	dateFmt = "Jan 02, 2006"
+
+	# Code Highlighting (HighlightJS)
+	highlightJs = false
+	highlightJsLanguages = [ "go" ]
+	highlightJsStyle = "ocean"
+
+	# Social Links
+	email = "phantom0308@zju.edu.cn"
+	github = "https://github.com/Phantom1003/"
+	Bilibili = "https://space.bilibili.com/5947453"
+
+# Language Configuration
+#[languages.in]
+#	lang = "in"
+#	languageName = "Bahasa Indonesia"
+#	weight = 1

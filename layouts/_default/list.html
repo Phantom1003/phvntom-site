@@ -1,0 +1,18 @@
+{{ partial "header" . }}
+<article>
+	<div id="subpage-padding">
+	<header>
+		{{ partial "title" . }}
+		{{ with .Content }}{{.}}{{ end }}
+	</header>
+
+	<ul class="no-bullet">
+	    {{ range .Data.Pages.ByDate }}
+	    {{ partial "li" . }}
+		{{ end }}
+	</div>
+	</ul>
+	{{ partial "paginator" . }}
+	
+</article>
+{{ partial "footer" . }}
