@@ -83,7 +83,12 @@ pygmentsUseClasses = true
 	sub404 = "Back to <a href='/'>Home</a>."
 
 	# Color of your website's accent
-	colorTheme = "#ff6565"
+	colorTheme = "#009ACD"
+	# spring #008B45
+	# summer #008B8B
+	# autumn #FF6565
+	# winter #009ACD
+
 	# Maximum number of item in Latest Posts or Works
 	latestCount = 5
 	# Path to site's favicon image
