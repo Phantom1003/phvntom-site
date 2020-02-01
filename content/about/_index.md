@@ -11,4 +11,4 @@ My name is Xu Jinyan (徐金焱), and I am an undergraduate in the College of Co
 
 
 
-This site is build by hugo. You can get source code from [Link](), it's based on MIT license.
+This site is build by hugo. You can get source code from [Link](https://github.com/Phantom1003/phvntom-site.git), it's based on MIT license.

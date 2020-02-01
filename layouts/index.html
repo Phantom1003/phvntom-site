@@ -15,7 +15,6 @@
 				{{- end -}}
 			</ul>
 		</section>
-	
 		{{ $pages := where site.RegularPages "Type" "in" .Site.Params.WorkSections }}
 		{{ if ne (len $pages) 0 }}
 		<section>
@@ -29,10 +28,5 @@
 		{{ end }}
 	</div>
 </article>
-			
-
-
-
-
 
 {{ partial "footer" . }}
