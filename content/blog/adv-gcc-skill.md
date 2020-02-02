@@ -1,5 +1,5 @@
 ---
-title: "Advance GCC Skill for Kernel Programing [Todo]"
+title: "Advance GCC Programing Skill [Todo]"
 date: 2019-11-02
 draft: false
 ---

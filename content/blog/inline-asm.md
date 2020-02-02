@@ -13,7 +13,7 @@ draft: false
 asm volatile ( "statements\n\t"
     		 : output_registers			// 非必需
     		 : input_registers			// 非必需
-    		 : clobbered_registers );   // 非必需
+    		 : clobbered_registers );     // 非必需
 ```
 
 #### Tips
@@ -27,7 +27,7 @@ asm volatile ( "statements\n\t"
 4. 占位符
 
    ```c
-   `__asm__("cmoveq %1, %2, %[result]" : [result] "=r"(result) : "r"(test), "r"(new), "[result]"(old));`
+   __asm__("cmoveq %1, %2, %[result]" : [result] "=r"(result) : "r"(test), "r"(new), "[result]"(old));
    ```
 
    如果总共有n个操作数(包括输入和输出)，那么第一个输出操作数的编号为0，逐项递增，总操作数的数目限制在10个(%0、%1、…、%9)。如果要处理很多输入和输出操作，数字型的占位符很快就会变得混乱。为了使条理清晰，GNU编译器(从版本3.1开始)允许声明替换的名称作为占位符。替换的名称在“输入部分”和“输出部分”中声明。格式如下: `[name] "constraint"(C expression)` 声明name后，使用%[name]的形式替换内嵌汇编代码中相应的数字型占位符。

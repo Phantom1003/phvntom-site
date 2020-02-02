@@ -1,9 +1,13 @@
 # Manis Hugo Theme
 
-It's a minimalist and responsive theme for Hugo Static Site Generator. It's
-name taken from Indonesian Language for *Sweet*.
+It's a minimalist and responsive theme for Hugo Static Site Generator. It's name taken from Indonesian Language for *Sweet*.
 
-![Manis' Mockup Device](https://raw.githubusercontent.com/yursan9/manis-hugo-theme/master/images/mockup.jpg)
+Phantom changes some css and config file of it. 
+
+* Link: http://www.phvntom.tech
+* Link: https://phantom-v.github.io
+
+
 
 ## Table of Contents
 
@@ -33,7 +37,7 @@ Like I said, it's really minimal. Its doesn't even have grid or anything nice li
 -   [Utterances](https://utteranc.es) Support.
 -   Translatable.
 
-![Manis' Homepage view](https://raw.githubusercontent.com/yursan9/manis-hugo-theme/master/images/blue-red.png)
+
 
 ## Get Started
 
