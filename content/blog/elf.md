@@ -67,13 +67,13 @@ typedef struct {
 
 {{< figure src="/doc-img/elf/header.png" alt="elf-header" class="img-lg">}}
 
->Magic number of ELF: 7f 45 4c 46
->Class: 02 -> ELF64
->Data: 01 -> 2's complement; little endian
->**Entry point address: [e_entry]** 0x8000 0000
->**Start of program headers, Size of program headers, Number of program headers: 
->	[e_phoff, e_phentsize, e_phnum]**
->**Start of section headers, Size of section headers, Number of section headers: 
+>Magic number of ELF: 7f 45 4c 46  
+>Class: 02 -> ELF64  
+>Data: 01 -> 2's complement; little endian  
+>**Entry point address: [e_entry]** 0x8000 0000  
+>**Start of program headers, Size of program headers, Number of program headers:   
+>   [e_phoff, e_phentsize, e_phnum]**
+>**Start of section headers, Size of section headers, Number of section headers:   
 >	[e_shoff, e_shentsize, e_shnum]**
 >**Section header string table index: [e_shstrndx]** Index of string table in section table 
 
