@@ -71,10 +71,10 @@ typedef struct {
 >Class: 02 -> ELF64
 >Data: 01 -> 2's complement; little endian
 >**Entry point address: [e_entry]** 0x8000 0000
->**Start of program headers, Size of program headers, Number of program headers: **
->	**[e_phoff, e_phentsize, e_phnum]**
->**Start of section headers, Size of section headers, Number of section headers: **
->	**[e_shoff, e_shentsize, e_shnum]**
+>**Start of program headers, Size of program headers, Number of program headers: 
+>	[e_phoff, e_phentsize, e_phnum]**
+>**Start of section headers, Size of section headers, Number of section headers: 
+>	[e_shoff, e_shentsize, e_shnum]**
 >**Section header string table index: [e_shstrndx]** Index of string table in section table 
 
 
